@@ -1,8 +1,10 @@
-package com.ahmfarisi.myquote;
+package com.ahmfarisi.myquote.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.ahmfarisi.myquote.R;
 
 public class MainActivity extends AppCompatActivity {
 
