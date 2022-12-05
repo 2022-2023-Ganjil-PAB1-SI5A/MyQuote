@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
         rvQuote = findViewById(R.id.rv_quote);
         pbQuote = findViewById(R.id.pb_quote);
         rvQuote.setLayoutManager(new LinearLayoutManager(this));
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
         retrieveData();
     }
 
